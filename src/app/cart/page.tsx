@@ -16,16 +16,16 @@ export default function CartPage() {
   if (items.length === 0)
     return (
       <div className="text-center py-20">
-        <h2 className="text-xl font-semibold">سبد خریدت خالیه 🛒</h2>
+        <h2 className="text-xl font-semibold">Your shopping cart is empty.🛒</h2>
         <Link href="/" className="text-blue-600 underline mt-4 block">
-          بازگشت به فروشگاه
+          Return to the store
         </Link>
       </div>
     );
 
   return (
     <div className="max-w-3xl mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-6">🛒 سبد خرید</h1>
+      <h1 className="text-2xl font-bold mb-6">🛒 Cart</h1>
 
       <ul className="space-y-6">
         {items.map((item) => (
@@ -44,7 +44,7 @@ export default function CartPage() {
               <div>
                 <h3 className="font-semibold">{item.title}</h3>
                 <p className="text-sm text-gray-500">
-                  {item.quantity} × {item.price.toLocaleString()} تومان
+                  {item.quantity} × {item.price.toLocaleString()} Toman
                 </p>
               </div>
             </div>
@@ -52,7 +52,7 @@ export default function CartPage() {
               className="text-red-500 hover:text-red-700"
               onClick={() => removeFromCart(item.id)}
             >
-              حذف
+              Delete
             </button>
           </li>
         ))}
@@ -60,9 +60,9 @@ export default function CartPage() {
 
       <div className="mt-8 flex justify-between items-center">
         <div>
-          <p>تعداد کل: {totalItems()} عدد</p>
+          <p>Total number: {totalItems()} piece</p>
           <p className="font-bold">
-            مجموع: {totalPrice().toLocaleString()} تومان
+            Total: {totalPrice().toLocaleString()} Tomans
           </p>
         </div>
         <div className="flex gap-3">
@@ -70,13 +70,13 @@ export default function CartPage() {
             className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition"
             onClick={clearCart}
           >
-            خالی کردن سبد
+            Empty basket
           </button>
           <Link
             href="/checkout"
             className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 transition"
           >
-            ثبت سفارش
+            Order registration
           </Link>
         </div>
       </div>

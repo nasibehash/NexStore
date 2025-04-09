@@ -17,7 +17,7 @@ export default function AddToCartButton({product}: { product: any }) {
       onClick={handleAdd}
       className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition cursor-pointer"
     >
-      افزودن به سبد خرید
+      Add to cart
     </button>
   );
 }

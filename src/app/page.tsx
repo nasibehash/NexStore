@@ -10,7 +10,7 @@ export default async function HomePage() {
     <div className="min-h-screen flex flex-col">
       <Header/>
       <main className="flex-grow container mx-auto px-4 py-6">
-        <h1 className="text-3xl font-bold mb-4">محصولات پیشنهادی</h1>
+        <h1 className="text-3xl font-bold mb-4">Suggested products</h1>
         <ProductList products={products}/>
       </main>
       <Footer/>
