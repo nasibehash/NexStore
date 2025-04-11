@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a946210-ae27-4ea8-beb5-8b0894745201" name="Changes" comment="Feature: Add pages to project">
+    <list default="true" id="9a946210-ae27-4ea8-beb5-8b0894745201" name="Changes" comment="Feature: Add cart to project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/cart/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cart/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/checkout/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/checkout/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddToCartButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddToCartButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/api.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,8 @@
       <updated>1744198933640</updated>
       <workItem from="1744198935005" duration="693000" />
       <workItem from="1744199640207" duration="4191000" />
-      <workItem from="1744221322787" duration="2818000" />
+      <workItem from="1744221322787" duration="3041000" />
+      <workItem from="1744357751570" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Add nexStore project">
       <option name="closed" value="true" />
@@ -98,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744203639518</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Feature: Add cart to project">
+      <option name="closed" value="true" />
+      <created>1744224299202</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744224299202</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feature: Add nexStore project" />
     <MESSAGE value="Feature: Add pages to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: Add pages to project" />
+    <MESSAGE value="Feature: Add cart to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: Add cart to project" />
   </component>
 </project>
