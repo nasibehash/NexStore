@@ -4,13 +4,7 @@ import { fetchProductById } from '@/lib/api';
 import Image from 'next/image';
 import AddToCartButton from '@/components/AddToCartButton';
 
-type Props = {
-  params: {
-    id: string;
-  };
-};
-
-export default async function ProductDetailPage({ params }: Props) {
+export default async function ProductDetailPage({ params }: { params: { id: string } }) {
   const product = await fetchProductById(params.id);
 
   return (
