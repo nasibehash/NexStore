@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a946210-ae27-4ea8-beb5-8b0894745201" name="Changes" comment="Feature: Add vercel json file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9a946210-ae27-4ea8-beb5-8b0894745201" name="Changes" comment="Feature: Add promise type">
       <change beforePath="$PROJECT_DIR$/src/lib/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/api.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,7 @@
       <workItem from="1744199640207" duration="4191000" />
       <workItem from="1744221322787" duration="3041000" />
       <workItem from="1744357751570" duration="1805000" />
-      <workItem from="1744434449690" duration="6376000" />
+      <workItem from="1744434449690" duration="6503000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Add nexStore project">
       <option name="closed" value="true" />
@@ -159,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744444538272</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Feature: Add promise type">
+      <option name="closed" value="true" />
+      <created>1744444768811</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744444768811</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +191,7 @@
     <MESSAGE value="Feature: Add product type" />
     <MESSAGE value="Feature: Get async param" />
     <MESSAGE value="Feature: Add vercel json file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: Add vercel json file" />
+    <MESSAGE value="Feature: Add promise type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: Add promise type" />
   </component>
 </project>
