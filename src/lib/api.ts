@@ -4,7 +4,7 @@ export async function fetchProducts() {
   return res.json();
 }
 
-export async function fetchProductById(id: string) {
+export async function fetchProductById(id: string): Promise<string> {
   const res = await fetch(`https://fakestoreapi.com/products/${id}`);
   if (!res.ok) throw new Error('Failed to fetch product');
   return res.json();
