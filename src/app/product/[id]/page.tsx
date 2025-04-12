@@ -9,8 +9,8 @@ type Props = {
 };
 
 export default async function ProductDetailPage({params}: Props) {
-  const product = await fetchProductById(params.id);
-
+const {id} = await params;
+  const product = await fetchProductById(id);
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="flex flex-col md:flex-row gap-6">
