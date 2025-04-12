@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { fetchProducts } from '@/lib/api';
 
-export const dynamic = "force-dynamic";
 export default async function HomePage() {
   const products = await fetchProducts();
 

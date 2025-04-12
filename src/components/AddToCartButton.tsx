@@ -3,7 +3,9 @@
 import { useCartStore } from '@/features/cart/useCartStore';
 import { useRouter } from 'next/navigation';
 
-export default function AddToCartButton({product}: { product: any }) {
+import { Product } from '@/types/product.type';
+
+export default function AddToCartButton({product}: { product: Product }) {
   const addToCart = useCartStore((state) => state.addToCart);
   const router = useRouter();
 

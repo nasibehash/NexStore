@@ -1,6 +1,7 @@
 import Link from 'next/link';
+import { Product } from '@/types/product.type';
 
-export default function ProductCard({product}: { product: any }) {
+export default function ProductCard({product}: { product: Product }) {
   return (
     <div className="border rounded-lg p-4 shadow-sm hover:shadow-md transition">
       <Link href={`/product/${product.id}`}>

@@ -1,10 +1,14 @@
-export const dynamic = "force-dynamic";
-
 import { fetchProductById } from '@/lib/api';
 import Image from 'next/image';
 import AddToCartButton from '@/components/AddToCartButton';
 
-export default async function ProductDetailPage({ params }: { params: { id: string } }) {
+type Props = {
+  params: {
+    id: string;
+  };
+};
+
+export default async function ProductDetailPage({params}: Props) {
   const product = await fetchProductById(params.id);
 
   return (
@@ -25,7 +29,7 @@ export default async function ProductDetailPage({ params }: { params: { id: stri
           <p className="text-xl font-semibold text-green-600 mb-6">
             ${product.price}
           </p>
-          <AddToCartButton product={product} />
+          <AddToCartButton product={product}/>
         </div>
       </div>
     </div>

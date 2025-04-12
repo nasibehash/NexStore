@@ -1,13 +1,8 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
-type Product = {
-  id: number;
-  title: string;
-  price: number;
-  image: string;
-  quantity: number;
-};
+import { Product } from '@/types/product.type';
+
 
 type CartStore = {
   items: Product[];
