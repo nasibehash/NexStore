@@ -3,6 +3,7 @@
 import {useState} from 'react';
 
 import ProductCard from './ProductCard';
+import Input from './Input';
 
 import {Product} from '@/types/product.type';
 
@@ -16,7 +17,7 @@ export default function ProductList({products}: { products: Product[] }) {
 
     return (
         <>
-            <input
+            <Input
                 type="text"
                 className="w-full p-2 border rounded mb-4"
                 placeholder="Search..."
