@@ -14,6 +14,7 @@ export default function ProductCard({product}: { product: Product }) {
                 </div>
                 <h3 className="mt-2 font-semibold text-sm line-clamp-2">{product.title}</h3>
                 <h3 className="mt-2 font-semibold text-sm line-clamp-2">{product.description}</h3>
+                <h3 className="mt-2 font-semibold text-sm line-clamp-2">{product.rating.rate}</h3>
                 <p className="text-gray-700 font-bold mt-1">${product.price}</p>
             </Link>
         </div>
